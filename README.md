@@ -5,6 +5,9 @@
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)](https://www.tensorflow.org/)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green)](https://opencv.org/)
 
+![Covert Ops Banner](assets/banner.png)
+
+
 ## 📌 Abstract
 
 **Covert Ops** is an AI-powered surveillance system designed to enhance real-time crime detection capabilities. Using a DenseNet121 backbone with transfer learning, this project identifies and classifies suspicious or criminal incidents from video feeds. Activities such as arson, vandalism, traffic accidents, and fire are recognized via a robust model fine-tuned on crime-specific datasets.
