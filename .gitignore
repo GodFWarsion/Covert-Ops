@@ -1,0 +1,68 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+*.log
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+*.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Trained models
+*.h5
+*.keras
+*.pb
+*.tflite
+*.pth
+
+# Dataset folders
+data/
+fire_dataset/
+Train/
+Test/
+
+# Block image files globally...
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+*.gif
+*.webp
+*.ico
+*.svg
+
+# ...but allow them in the assets folder
+!assets/
+!assets/*.png
+!assets/*.jpg
+
+# Archives
+*.zip
+*.rar
+*.tar.gz
+*.7z
+
+# Documents
+*.pdf
+*.docx
+
+# OS/editor/system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary/compiled
+*.out
+*.tmp
+*.bak
