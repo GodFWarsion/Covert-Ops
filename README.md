@@ -48,3 +48,22 @@ source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
+
+```
+## 🔗 Datasets
+
+This project uses two publicly available datasets:
+
+### 🔥 Fire Detection Dataset (Kaggle)
+- Source: [https://www.kaggle.com/datasets/phylake1337/fire-dataset](https://www.kaggle.com/datasets/phylake1337/fire-dataset)
+- Structure: Contains `fire` and `non-fire` image classes.
+- Place it under:  
+
+### 🎥 UCF-Crime Dataset
+- Official site: [https://www.crcv.ucf.edu/projects/real-world/](https://www.crcv.ucf.edu/projects/real-world/)
+- Kaggle alternative input: [https://www.kaggle.com/code/odins0n/video-anomaly-detection/input](https://www.kaggle.com/code/odins0n/video-anomaly-detection/input)
+- You’ll need to manually download and extract videos.
+- More Crime DataSet - Arson,Vandalism,Murder,Explosion ... on the way
+
+⚠️ Note: These datasets are large and cannot be included in this GitHub repo. Please download them manually and place them in the recommended directory structure.
+
